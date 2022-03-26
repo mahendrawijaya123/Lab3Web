@@ -1,6 +1,9 @@
 # MEMBUAT ORDERED LIST
 ![gambar](img/membuat_ordered_list.png)
 
+ordered list di gunakan untuk membuat daftar dimana tiap bagiannya di tandai dengan sebuah simbol
+
+## source code
 ```html
 header>
     <h1>Membuat List</h1>
@@ -18,6 +21,7 @@ header>
 # MEMBUAT UNODERED LIST
 ![GAMBAR](img/Membuat_undered_list.png)
 
+unordered list digunakan untuk membuat daftar di mana tiap bagiannya memiliki nomer terurut.
 ```html
 <section id="unorder-list">
     <h2>Unordered List</h2>
@@ -30,8 +34,11 @@ header>
 ```
 
 # MEMBUAT DESCRIPTION LIST
-! [gambar](img/membuat_decription.png)
+![gambar](img/membuat_decription%20(2).png)
 
+Description list digunakan untuk membuat daftar dimana tiap daftar tersebut memiliki penjelasan "sub-bagian"
+ada tiga tag yang digunakan untuk membuat description list
+## source code
 ```html
 <section id="unorder-list">
     <h2>Description List</h2>
@@ -49,8 +56,10 @@ header>
 ```
 
 # MEMBUAT TABLE
-![GAMBAR](img/membuat_table.png)
+![GAMBAR](img/membuat%20tabel%20(1).png)
 
+Table digunakan untuk menyajikan data dalam bentuk kolom dan baris, tujuan agar informasi dapat di tampilkan secara lebih terstruktur dan tabular.
+## Source code
 ```html
 <header>
     <h1>Membuat Tabel</h1>
@@ -84,15 +93,18 @@ header>
 ```
 
 # MENGATUR MARGIN DAN PADDING
-![gambar](img/membuat_margin.png)
+![gambar](img/membuat%20margin%20(1).png)
 
+## Source code
 ```html
 <table border="1" cellpadding="4" cellspacing="0">
 ```
 
 # MENGGABUNGKAN SEL DATA
-![gambar](img/menggabungkan%20sel%20data.png)
+![gambar](img/menggabungkan%20sel%20data%20(1).png)
 
+sel data dapat di gabungkan untuk keperluan tertentu, untuk menggabungan sel secara vertikal menggunakan atribut "rowspan" dan untuk menggabungkan sel secara horizontal menggunakan atribut "colspan"
+## Source code
 ```html
 <table border="1" cellpadding="4" cellspacing="0">
     <thead>
@@ -121,7 +133,10 @@ header>
 ```
 
 # MEMBUAT FORMULIR
-![gambar](img/membuat%20form.png)
+![gambar](img/membuat%20formulir%20(1).png)
+
+Formulir dapat di isi kemudian di proses dengan program tertentu, baik dari server ataupun dari sisi client
+## source code
 
 ```html
 <form action="proses.php" method="post">
@@ -148,8 +163,9 @@ header>
 ```
 
 #  MENAMBAHKAN STYLE PADA FORMULIR
-![gambar](img/menambahkan%20style%20form.png)
+![gambar](img/Menambahkan%20style%20form%20(1).png)
 
+## Source code
 ```html
 <style>
     form p > label{
@@ -177,6 +193,7 @@ header>
 
 ![gambar](img/dropdown.png)
 
+## Source code
 ```html
 <p>
             <label for="#">Jurusan</label>
@@ -192,8 +209,9 @@ header>
 
 ## Listbox dan multiple
 
-![gambar](img/Listbox.png)
+![gambar](img/Listbox%20(1).png)
 
+## Source code
 ```html
  <p>
             <label for="#">Ekstrakuler</label>
